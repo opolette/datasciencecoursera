@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Explanations
 
-This is sample code for generating a dataframe based on :
+This is sample code for generating a dataframe based on:
 [Details](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
 The source dataset can be downloaded from:
 [Archive Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)  
