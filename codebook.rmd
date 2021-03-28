@@ -1,0 +1,20 @@
+---
+title: "codebook"
+author: "OP"
+date: "28/03/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The raw data contains 561 variables (features) with time and frequency domain variables.
+Out of these 561 variables, only the ones related to mean and std are extracted in the dataframe (80 variables in total).
+The data frame presents the following columns:
+- an id
+- subject (identificatio of the volunteer)
+- activity
+- one column per variable
+
+the list of variables can be found in run_analysis_variables.txt file
