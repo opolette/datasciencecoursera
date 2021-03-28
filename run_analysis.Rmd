@@ -24,7 +24,12 @@ It also creates a summary dataframe with the means of all of these variables, pe
 
 Note that dplyr and data.table packages must be installed.
 
-Here is the sample code to execute:
+you can use the function generateTidy() to generate a tidyDF.
+This function calls two other functions:
+createARDF : creates the general Dataframe
+createTidyDF: creates the tidy Dataframe
+
+Here is the sample code to execute, that creates both dataframes:
 
 
 ```{r echo=FALSE, results=''}

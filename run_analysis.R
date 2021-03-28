@@ -19,7 +19,8 @@
 ## source("run_analysis.R")
 ## initializeLibs()
 ## sampleDF <- createARDF() # creates the main Dataframe
-## tidyDF <- createTydiDF(sampleDF) # creates the tidy Dataframe
+## tidyDF <- createTidyDF(sampleDF) # creates the tidy Dataframe
+## tidyDF <- generateTidy() # executes both steps to generate a tidyDF
 ##
 
 
@@ -101,4 +102,13 @@ createARDF <- function() {
   stagingTestDF = createStagingDF("test")
   ARMeanStdDF <- rbind(stagingTrainDF, stagingTestDF)
   return(ARMeanStdDF)
+}
+
+# generateTidy
+# generates the tidy dataframe
+
+generateTidy <- function() {
+  ARDF <- createARDF()
+  tidyDF <- createTidyDF(ARDF)
+  return(tidyDF)
 }

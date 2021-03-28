@@ -33,6 +33,9 @@ Instructions
 Download the Raw Data, extract it in the source code folder.
 Details about execution and an execution example can be found in the markdown file: run_analysis.Rmd
 
+you can use the function generateTidy() to generate a tidyDF.
+
+
 ======================================
 Variables
 ======================================
